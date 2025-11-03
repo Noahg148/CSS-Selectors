@@ -1,7 +1,7 @@
 # CSS-Selectors
 <table>
 <tr>
-<td valign="top" width=400>
+<td valign="top" width=450>
 
 HTML:
 ```html‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
@@ -27,4 +27,4 @@ CSS:
 }
 ```
 </td>
-<td valign="top" width=400> <img width = 100% src="https://github.com/user-attachments/assets/7d8170d5-8554-4c49-a680-405e00ac07d4" /> </td> </tr> </table>
+<td valign="top" width=450> <img width = 100% src="https://github.com/user-attachments/assets/7d8170d5-8554-4c49-a680-405e00ac07d4" /> </td> </tr> </table>
