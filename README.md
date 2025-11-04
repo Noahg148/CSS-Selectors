@@ -23,7 +23,8 @@ CSS:
   border: 2px solid;
 }
 
-#container p {
+/* alle p's die in container zitten */
+#container p { 
   background-color: hsl(60, 100%, 70%);
 }
 ```
@@ -54,6 +55,7 @@ CSS:
   border: 2px solid;
 }
 
+/* alle p's die directe kinderen zijn van container */
 #container > p {
   background-color: hsl(60, 100%, 70%);
 }
@@ -85,6 +87,7 @@ CSS:
   border: 2px solid;
 }
 
+/* alle p's die directe siblings zijn van container */
 #container ~ p {
   background-color: hsl(60, 100%, 70%);
 }
@@ -116,6 +119,7 @@ CSS:
   border: 2px solid;
 }
 
+/* alle p's die directe siblings zijn van container */
 #container ~ p {
   background-color: hsl(60, 100%, 70%);
 }
@@ -147,6 +151,7 @@ CSS:
   border: 2px solid;
 }
 
+/* de eerste p die volgt op container */
 #container + p {
   background-color: hsl(60, 100%, 70%);
 }
@@ -240,6 +245,7 @@ CSS:
   border: 2px solid;
 }
 
+/* alle p's om het even waar die de class highlight hebben */
 p.highlight {
     background-color: hsl(60, 100%, 70%);
 }
@@ -276,3 +282,35 @@ div[id] > p {
 ```
 </td>
 <td valign="top" width=450> <img width="456" height="249" alt="image" src="https://github.com/user-attachments/assets/48aff295-a620-4331-9255-ab5843d8bffc" /> </td> </tr> </table>
+
+## Convoluted
+<table>
+<tr>
+<td valign="top" width=450>
+
+HTML:
+```html‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+<div id="container">
+    <p>This is #1</p>
+    <p>This is #2</p>
+    <div>
+        <p>This is #3</p>
+    </div>
+</div>
+<p>This is #4</p>
+<p>This is #5</p>
+```
+CSS:
+```css
+#container {
+  border: 2px solid;
+}
+
+/* zelfde resultaat als #container > p + p ~ div > p
+of #container > p ~ div > p */
+#container p ~ div p {
+    background-color: hsl(60, 100%, 70%);
+}
+```
+</td>
+<td valign="top" width=450> <img width="456" height="259" alt="image" src="https://github.com/user-attachments/assets/eb7c0245-ff20-4098-9656-b6bb25a37e15" /> </td> </tr> </table>
