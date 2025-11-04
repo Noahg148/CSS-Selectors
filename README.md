@@ -29,7 +29,7 @@ CSS:
 }
 ```
 </td>
-<td valign="top" width=450> <img width="439" height="368" alt="image" src="https://github.com/user-attachments/assets/6bda8acc-6b00-4a88-a4e6-98ffc8bd4a7d" /> </td> </tr> </table>
+<td valign="top" width=450> <img  width="456" height="368" alt="image" src="https://github.com/user-attachments/assets/6bda8acc-6b00-4a88-a4e6-98ffc8bd4a7d" /> </td> </tr> </table>
 
 ## Child
 <table>
@@ -61,7 +61,7 @@ CSS:
 }
 ```
 </td>
-<td valign="top" width=450> <img width="438" height="368" alt="image" src="https://github.com/user-attachments/assets/bab5b229-c331-4bb3-a34f-c7c0af77dd47" /> </td> </tr> </table>
+<td valign="top" width=450> <img  width="456" height="368" alt="image" src="https://github.com/user-attachments/assets/bab5b229-c331-4bb3-a34f-c7c0af77dd47" /> </td> </tr> </table>
 
 ## Subsequent sibling
 <table>
@@ -93,7 +93,7 @@ CSS:
 }
 ```
 </td>
-<td valign="top" width=450> <img width="443" height="372" alt="image" src="https://github.com/user-attachments/assets/44dab9fc-99ae-4fcb-8831-410562af6f83" /> </td> </tr> </table>
+<td valign="top" width=450> <img  width="456" height="372" alt="image" src="https://github.com/user-attachments/assets/44dab9fc-99ae-4fcb-8831-410562af6f83" /> </td> </tr> </table>
 <table>
 <tr>
 <td valign="top" width=450>
@@ -125,7 +125,7 @@ CSS:
 }
 ```
 </td>
-<td valign="top" width=450> <img width="438" height="378" alt="image" src="https://github.com/user-attachments/assets/46dfc602-8d5f-419d-a764-37b7eaa24cd7" /> </td> </tr> </table>
+<td valign="top" width=450> <img  width="456" height="378" alt="image" src="https://github.com/user-attachments/assets/46dfc602-8d5f-419d-a764-37b7eaa24cd7" /> </td> </tr> </table>
 
 ## Next sibling
 <table>
@@ -157,7 +157,7 @@ CSS:
 }
 ```
 </td>
-<td valign="top" width=450> <img width="441" height="369" alt="image" src="https://github.com/user-attachments/assets/252e2203-047b-4048-b3ca-d36a830c612c" /> </td> </tr> </table>
+<td valign="top" width=450> <img  width="456" height="369" alt="image" src="https://github.com/user-attachments/assets/252e2203-047b-4048-b3ca-d36a830c612c" /> </td> </tr> </table>
 
 ## Pseudo class
 <table>
@@ -314,4 +314,4 @@ of #container > p ~ div > p */
 }
 ```
 </td>
-<td valign="top" width=450> <img width="456" height="259" alt="image" src="https://github.com/user-attachments/assets/eb7c0245-ff20-4098-9656-b6bb25a37e15" /> </td> </tr> </table>
+<td valign="top" width=450> <img  width="456" height="259" alt="image" src="https://github.com/user-attachments/assets/eb7c0245-ff20-4098-9656-b6bb25a37e15" /> </td> </tr> </table>
