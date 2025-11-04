@@ -307,8 +307,11 @@ CSS:
   border: 2px solid;
 }
 
-/* zelfde resultaat als #container > p + p ~ div > p
-of #container > p ~ div > p */
+/* zelfde resultaat als #container > p + p + div > p
+of #container > p + p ~ div > p
+of #container > p ~ div > p
+of #container > p + div > p
+of #container > p + div p */
 #container p ~ div p {
     background-color: hsl(60, 100%, 70%);
 }
