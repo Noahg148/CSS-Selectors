@@ -1,4 +1,4 @@
-# CSS-Selectors
+# CSS Selectors
 ## Descendant
 <table>
 <tr>
