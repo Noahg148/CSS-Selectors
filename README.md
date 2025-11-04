@@ -214,7 +214,7 @@ CSS:
   border: 2px solid;
 }
 
-#container p:first-letter {
+#container p::first-letter {
     background-color: hsl(60, 100%, 70%);
 }
 ```
