@@ -154,7 +154,7 @@ CSS:
 </td>
 <td valign="top" width=450> <img width="441" height="369" alt="image" src="https://github.com/user-attachments/assets/252e2203-047b-4048-b3ca-d36a830c612c" /> </td> </tr> </table>
 
-## Pseudo classes
+## Pseudo class
 <table>
 <tr>
 <td valign="top" width=450>
@@ -183,4 +183,96 @@ CSS:
 }
 ```
 </td>
-<td valign="top" width=450> <img width="441" height="369" src="https://github.com/user-attachments/assets/99866799-b372-4f51-a032-506b82f92d3d" /> </td> </tr> </table>
+<td valign="top" width=450> <img "456" height="249"" src="https://github.com/user-attachments/assets/9756983b-8005-4318-8b54-a4737a0a7d1f" /> </td> </tr> </table>
+
+## Pseudo element
+<table>
+<tr>
+<td valign="top" width=450>
+
+HTML:
+```html‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+<div id="container">
+    <p>This is #1</p>
+    <p>This is #2</p>
+    <div>
+        <p>This is #3</p>
+    </div>
+</div>
+
+<p>This is #4</p>
+<p>This is #5</p>
+```
+CSS:
+```css
+#container {
+  border: 2px solid;
+}
+
+#container p:first-letter {
+    background-color: hsl(60, 100%, 70%);
+}
+```
+</td>
+<td valign="top" width=450> <img width="456" height="249" alt="image" src="https://github.com/user-attachments/assets/38412a4c-24e7-4885-ad27-8f0f519eaa5e" /> </td> </tr> </table>
+
+## Join selector
+<table>
+<tr>
+<td valign="top" width=450>
+
+HTML:
+```html‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+<body>
+<div id="container">
+    <p>This is #1</p>
+    <p>This is #2</p>
+    <div>
+        <p class="highlight">This is #3</p>
+    </div>
+</div>
+<p>This is #4</p>
+<p>This is #5</p>
+```
+CSS:
+```css
+#container {
+  border: 2px solid;
+}
+
+p.highlight {
+    background-color: hsl(60, 100%, 70%);
+}
+```
+</td>
+<td valign="top" width=450> <img width="456" height="249" alt="image" src="https://github.com/user-attachments/assets/43b90d12-fd2c-4716-bfea-a7b903e9f891" /> </td> </tr> </table>
+
+## Attribute
+<table>
+<tr>
+<td valign="top" width=450>
+
+HTML:
+```html‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+<div id="container">
+    <p>This is #1</p>
+    <p>This is #2</p>
+    <div>
+        <p>This is #3</p>
+    </div>
+</div>
+<p>This is #4</p>
+<p>This is #5</p>
+```
+CSS:
+```css
+#container {
+  border: 2px solid;
+}
+
+div[id] > p {
+    background-color: hsl(60, 100%, 70%);
+}
+```
+</td>
+<td valign="top" width=450> <img width="456" height="249" alt="image" src="https://github.com/user-attachments/assets/48aff295-a620-4331-9255-ab5843d8bffc" /> </td> </tr> </table>
