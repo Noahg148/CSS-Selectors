@@ -276,7 +276,7 @@ CSS:
   border: 2px solid;
 }
 
-/* alle p's die in een div zitten die een id heeft */
+/* alle p's die directe kinderen zijn van alle divs met een id */
 div[id] > p {
     background-color: hsl(60, 100%, 70%);
 }
