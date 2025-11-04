@@ -188,7 +188,7 @@ CSS:
 }
 ```
 </td>
-<td valign="top" width=450> <img "456" height="249"" src="https://github.com/user-attachments/assets/9756983b-8005-4318-8b54-a4737a0a7d1f" /> </td> </tr> </table>
+<td valign="top" width=450> <img width="456" height="249"" src="https://github.com/user-attachments/assets/9756983b-8005-4318-8b54-a4737a0a7d1f" /> </td> </tr> </table>
 
 ## Pseudo element
 <table>
